@@ -1,0 +1,109 @@
+
+/* Frejas css */
+*
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+header{
+  width: 100%;
+}
+
+/* navigation */
+
+.nav{
+  font-family: Helvetica;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.nav a {
+  text-align: center;
+  display: inline;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.nav li{
+    text-align: center;
+    display: inline;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+
+li a:hover{
+  color: #B0ACBA;
+}
+
+li a.active {
+    color: #B0ACBA;
+}
+
+/* logo */
+.logo {
+  max-width: 10%;
+  height: auto;
+  display: block;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer */
+
+footer {
+  font-family: Helvetica;
+  width: 100%;
+  background-color: black;
+  padding: 50px 0px;
+}
+
+.footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.footer ul {
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer li {
+  text-decoration: none;
+  color: #fff;
+  font-size: 80%;
+  padding: 0;
+}
+.beskrivelse  {
+  text-align: justify;
+}
+
+.billede {
+  /*margin: 0px auto;
+  margin-right: 0.5%;*/
+  margin: 1%;
+  float: left;
+  height: 48%;
+  width: 48%;
+  border:
+}
+
+h1{
+  text-align: justify;
+  text-decoration: none;
+  border: 5px solid black
+}
